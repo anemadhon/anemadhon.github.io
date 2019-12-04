@@ -1,0 +1,22 @@
+{
+	"name": "SubmissionTwo",
+	"short_name": "SLB",
+	"description": "Aplikasi Berita Bola",
+	"start_url": "/index.html",
+	"display": "standalone",
+	"background_color": "#ff7043",
+	"theme_color": "#ff7043",
+	"gcm_sender_id": "520500752910",
+	"icons": [
+		{
+			"src": "/img/icon_a.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "/img/icon_b.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		}
+	]
+}

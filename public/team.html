@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>SepakLaBola</title>
+	<meta name="description" content="My SLB"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/materialize.min.css">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="#ff7043"/>
+</head>
+<body>
+	<!-- Navigasi -->
+	<!-- Top -->
+	<div class="navbar-fixed">
+		<nav class="deep-orange lighten-1">
+			<div class="container">
+				<div class="nav-wrapper">
+			        <a href="#" class="brand-logo">Team News</a>
+			        <a href="./" class="sidenav-trigger" data-target="nav-mobile">Home</a>
+			        <ul class="topnav right hide-on-med-and-down">
+						<li><a href="./">Home</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- Side -->
+	<ul class="sidenav" id="nav-mobile"></ul>
+	<!-- Akhir Navigasi -->
+	<div class="container" id="bodyTeamInfo"></div>
+	<div class="container" id="bodyTeamMatch"></div>
+	<div class="fixed-action-btn">
+		<a class="waves-effect btn-small red" id="add">Add To Fav</a>
+		<a class="waves-effect btn-small red" id="dlt" style="display: none;">Hapus Dari Fav</a>
+	</div>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/swteam.js"></script>
+	<script src="js/api.js"></script>
+	<script src="js/idb.js"></script>
+	<script src="js/db.js"></script>
+</body>
+</html>
