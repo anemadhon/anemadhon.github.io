@@ -1,2 +1,2 @@
 # anemadhon.github.io
-wb pwa from Dicoding
+pwa from Dicoding
